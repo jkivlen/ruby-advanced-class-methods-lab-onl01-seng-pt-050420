@@ -38,7 +38,7 @@ end
     end
   
   def self.alphabetical
-    @@all.all.sort_by{|s| s.name}
+    @@all.sort_by{|s| s.name}
 end
 
 end
